@@ -1,0 +1,33 @@
+.b {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+.b .pp {
+    font-size: 15px;
+    border-bottom: 1px solid black !important;
+    padding-bottom: 0.5%;
+}
+
+.b .pp span {
+    background-color: white;
+    position: relative;
+    top: 13px;
+    left: 12px;
+    padding: 0 0;
+    margin-bottom: 1em;
+}
+
+.f {
+    padding-left: 1%;
+}
+
+.Buttons {
+    margin-top: 2%;
+    text-align: center;
+}

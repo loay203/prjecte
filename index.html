@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>final</title>
+
+</head>
+<body>
+
+    <h3>go to assigmant <a href="/ass.html">here</a></h3>
+
+    <h2> <b> Internship Application </b> </h2>
+    <p> Please fill out the form below and hit submit to be considered for the intership. </p>
+    <span class="b">
+    <form name="F" class="f">
+        <p class="pp"><span> Personalia: </span>
+    <p> First Name: <input type="text" name="fname" required> </p>
+    <p> Last Name: <input type="text" name="lname" required> </p>
+    <p> Personal Website: <input type="url" name="pw"> </p>
+    <p> Enter a phone number: <input type="number" name="pn" placeholder="123-45-678"> </p>
+    <p> Enter your email: <input type="text" name="email" required> </p>
+    <p> Username: <input type="text" name="un" required> </p>
+    <p> Password: <input type="password" name="password" required> </p>
+    </p>
+    </span>
+
+    <p class="pp"><span> Education: </span></p>
+    <p> Degree:
+        <input list="dg" name="dg">
+        <datalist id="dg">
+        <option value="Associate">
+        <option value="Bachelor">
+        <option value="Masters">
+        <option value="Ph.D.">
+        <option value="other">
+      </datalist>
+    </p>
+    <p> When will you graduate: <input type="date" name="date" max="2020-12-31"> </p>
+    
+    <p> Upload your CV and other documents: <input type="file" name="cv" multiple> </p>
+
+
+    <div class="Buttons">
+        <input type="submit" onclick=" Validation()" value="Submit" />
+        <button onclick="save()"> Save </button>
+        <input type="reset" value="Reset">
+        </form>
+    </div>
+    <script src="/code.js"></script>
+
+</body>
+</html>
